@@ -12,7 +12,7 @@ public class SeperatingNum {
             arr[i] = temp;
             num = num/10;
         }
-        for( int i = 0 ; i<5 ; i++)
+        for( int i = 4 ; i>=0; i--)
         {
             System.out.print("   " + arr[i]);
         }
